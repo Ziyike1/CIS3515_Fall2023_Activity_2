@@ -15,9 +15,15 @@ class MainActivity : AppCompatActivity() {
 
         /* Step 1: Populate this array */
         //val numberArray = Array Of Numbers
+        val sizeArray =IntArray(100)
+        for (x in sizeArray){
+            for (element in sizeArray){
+                println(element)
+            }
+        }
 
         /* Step 2: Create adapter to display items from array in Spinner */
-        //spinner.adapter = ArrayAdapter...
+        //spinner.adapter = ArrayAdapter..
 
 
         // Step 3: Change TextView's text size to the number selected in the Spinner */
